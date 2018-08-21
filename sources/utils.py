@@ -12,7 +12,7 @@ def get_links():
     page = requests.get('https://www.wallpaper.com/latest')
     tree = html.fromstring(page.content)
     links = tree.xpath('//img/@src')
-    return links[:3]
+    return links
 
 
 def download_link(link):

@@ -1,3 +1,8 @@
+"""
+Download images synchronous
+
+"""
+
 from utils import get_links, download_link
 from time import time
 
