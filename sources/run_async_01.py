@@ -30,7 +30,7 @@ if __name__ == '__main__':
     links = get_links()
     queue = Queue()
     # Create 8 worker threads
-    for x in range(8):
+    for x in range(4):
         worker = DownloadWorker(queue)
         # Setting daemon to True will let the main thread exit even though the workers are blocking
         worker.daemon = True
