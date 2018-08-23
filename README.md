@@ -1,7 +1,11 @@
 # Python Concurrency
 Examples for python concurrency
 
-Task: Download images from https://www.wallpaper.com/latest website and save to disk
+## Setup
+`pip install -r requirements.txt`
+
+## Task: 
+Download images from https://www.wallpaper.com/latest website and save to disk
 
 - File `run_sync.py` : Run task synchronous
 - File `run_async_01.py` : Run task use multi threading
